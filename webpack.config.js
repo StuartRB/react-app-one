@@ -20,7 +20,7 @@ module.exports = {
         new ModuleFederationPlugin({
             name: 'app1',
             remotes: {
-                app2: 'app2@http://localhost:8083/remoteEntry.js',
+                app2: 'app2@http://localhost:8082/remoteEntry.js',
             },
 
         })
